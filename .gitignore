@@ -1,6 +1,5 @@
 # Exclude Files
 *.DS_Store
-*.csv
 *.json
 *.txt
 *.tsv
@@ -14,3 +13,7 @@
 .vscode/
 __pycache__/
 .ipynb_checkpoints/
+.env
+
+/crawls
+posts.db

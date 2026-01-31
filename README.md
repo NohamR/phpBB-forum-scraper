@@ -1,5 +1,7 @@
 # phpBB Forum Scraper
 
+This is a fork of [phpBB-forum-scraper](https://github.com/Dascienz/phpBB-forum-scraper/) customized for scraping [macserialjunkie.com](https://macserialjunkie.com/).
+
 Python-based web scraper for phpBB forums. Project can be used as a template for building your own
 custom Scrapy spiders or for one-off crawls on designated forums. Please keep in mind that aggressive crawls
 can produce significant strain on web servers, so please throttle your request rates.
@@ -35,6 +37,6 @@ If you need additional data scraped, you will have to create additional spiders 
 ```bash
 cd phpBB_scraper/
 scrapy crawl phpBB
-# scrapy crawl phpBB -o posts.csv
+uv run scrapy crawl phpBB -s JOBDIR=crawls/resume-002
 ```
 NOTE: Please adjust `settings.py` to throttle your requests.

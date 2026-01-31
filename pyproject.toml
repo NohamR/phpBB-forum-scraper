@@ -1,0 +1,12 @@
+[project]
+name = "phpbb-forum-scraper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bs4>=0.0.2",
+    "python-dotenv>=1.2.1",
+    "scrapy>=2.14.1",
+    "tqdm>=4.67.1",
+]
